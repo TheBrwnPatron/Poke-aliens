@@ -1,0 +1,81 @@
+---
+title: "Bad Mood"
+icon: ":luggage:"
+aliases: "Bad Mood"
+foundryId: Compendium.ptu.edges.Item.5vx2u15hCXc2RFtM
+tags:
+  - Item
+---
+
+# Bad Mood
+![[-systems-ptu-css-images-icons-edge_icon.png|150]]
+
+```Item
+name: Bad Mood
+system:
+  origin: ''
+  effect: >-
+    Your Critical Hit Range is increased by +1 if you are suffering from a
+    Persistent Status Affliction. Your Critical Hit Range is increased by +1 if
+    you are suffering from a Volatile Status Affliction. These stack with each
+    other, giving a total of +2 to Critical Hit Range if you are suffering from
+    both a Persistant and a Volatile Status Affliction.
+  snippet: ''
+  rules:
+    - key: ActiveEffectLike
+      mode: add
+      value: 1
+      path: system.modifiers.critRange.mod
+      predicate:
+        - or:
+            - condition:burned
+            - condition:frozen
+            - condition:paralysis
+            - condition:poisoned
+            - condition:badly-poisoned
+    - key: ActiveEffectLike
+      mode: add
+      value: 1
+      path: system.modifiers.critRange.mod
+      predicate:
+        - or:
+            - condition:bad-sleep
+            - condition:confused
+            - condition:cursed
+            - condition:disabled
+            - condition:rage
+            - condition:vulnerable
+            - condition:infatuation
+            - condition:sleep
+            - condition:suppressed
+  enabled: true
+  slug: ''
+  schema:
+    version: 0.11
+    lastMigration: null
+  referenceEffect: ''
+  source:
+    value: PTR Compendiums
+  stackSlugs: false
+  keywords: []
+  prerequisites:
+    - Expert Intimidate
+  notes: ''
+  free: false
+  name: Bad Mood
+  useCount: 0
+type: edge
+img: /systems/ptu/css/images/icons/edge_icon.png
+effects: []
+flags:
+  ptu:
+    prereqBackup: Expert Intimidate
+_stats:
+  systemId: ptu
+  systemVersion: 4.1.4
+  coreVersion: '12.327'
+  createdTime: 1683367953785
+  modifiedTime: 1707761797684
+  lastModifiedBy: ODt7FhFvbVjW9f1k
+folder: null
+```

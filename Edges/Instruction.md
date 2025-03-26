@@ -1,0 +1,53 @@
+---
+title: "Instruction"
+icon: ":luggage:"
+aliases: "Instruction"
+foundryId: Compendium.ptu.edges.Item.7ipgmPobmlKbY65X
+tags:
+  - Item
+---
+
+# Instruction
+![[-systems-ptu-css-images-icons-edge_icon.png|150]]
+
+```Item
+name: Instruction
+system:
+  origin: ''
+  effect: >-
+    Whenever you aid an ally in an Assisted Skill Check using an Education Skill
+    you have at Novice Rank or higher, add your full Rank value as a bonus to
+    their roll instead of half.
+  snippet: ''
+  rules: []
+  enabled: true
+  slug: null
+  schema:
+    version: 0.11
+    lastMigration: null
+  referenceEffect: ''
+  source:
+    value: PTR Compendiums
+  stackSlugs: false
+  keywords: []
+  prerequisites:
+    - Novice General Education
+  notes: ''
+  free: false
+  name: Instruction
+  useCount: 0
+type: edge
+img: /systems/ptu/css/images/icons/edge_icon.png
+effects: []
+flags:
+  ptu:
+    prereqBackup: Novice General Education
+_stats:
+  systemId: ptu
+  systemVersion: 4.1.4
+  coreVersion: '12.327'
+  createdTime: 1683367953820
+  modifiedTime: 1707761797684
+  lastModifiedBy: ODt7FhFvbVjW9f1k
+folder: null
+```

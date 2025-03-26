@@ -1,0 +1,54 @@
+---
+title: "Weapon of Choice"
+icon: ":luggage:"
+aliases: "Weapon of Choice"
+foundryId: Compendium.ptu.edges.Item.Y9mmqjXuDu3mgsYK
+tags:
+  - Item
+---
+
+# Weapon of Choice
+![[-systems-ptu-css-images-icons-edge_icon.png|150]]
+
+```Item
+name: Weapon of Choice
+system:
+  origin: ''
+  effect: >-
+    Choose a specific weapon type. You gain a +2 Bonus on Opposed Rolls to
+    prevent being disarmed while wielding weapons of your chosen type. If you
+    would be disarmed anyway, you may pay 1 AP to prevent yourself from being
+    Disarmed.
+  snippet: ''
+  rules: []
+  enabled: true
+  slug: null
+  schema:
+    version: 0.11
+    lastMigration: null
+  referenceEffect: ''
+  source:
+    value: PTR Compendiums
+  stackSlugs: false
+  keywords: []
+  prerequisites:
+    - A Feature with the [Weapon] tag
+  notes: ''
+  free: false
+  name: Weapon of Choice
+  useCount: 0
+type: edge
+img: /systems/ptu/css/images/icons/edge_icon.png
+effects: []
+flags:
+  ptu:
+    prereqBackup: A Feature with the [Weapon] tag
+_stats:
+  systemId: ptu
+  systemVersion: 4.1.4
+  coreVersion: '12.327'
+  createdTime: 1683367953826
+  modifiedTime: 1707761797684
+  lastModifiedBy: ODt7FhFvbVjW9f1k
+folder: null
+```

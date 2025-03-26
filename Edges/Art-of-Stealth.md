@@ -1,0 +1,44 @@
+![[-systems-ptu-css-images-icons-edge_icon.png|150]]
+
+```Item
+name: Art of Stealth
+system:
+  origin: ''
+  effect: You gain the Stealth Capability.
+  snippet: ''
+  rules:
+    - key: GrantItem
+      predicate: []
+      allowDuplicate: false
+      uuid: Compendium.ptu.capabilities.Item.a1N1M1GMjMClaOdj
+  enabled: true
+  slug: null
+  schema:
+    version: 0.11
+    lastMigration: null
+  referenceEffect: ''
+  source:
+    value: PTR Compendiums
+  stackSlugs: false
+  keywords: []
+  prerequisites:
+    - Expert Stealth
+  notes: ''
+  free: false
+  name: Art of Stealth
+  useCount: 0
+type: edge
+img: /systems/ptu/css/images/icons/edge_icon.png
+effects: []
+flags:
+  ptu:
+    prereqBackup: Expert Stealth
+_stats:
+  systemId: ptu
+  systemVersion: 4.1.4
+  coreVersion: '12.327'
+  createdTime: 1683367953789
+  modifiedTime: 1707761797684
+  lastModifiedBy: ODt7FhFvbVjW9f1k
+folder: null
+```
